@@ -1,6 +1,5 @@
-function indexOfIgnoreCase(subStr, str) {
-  // write your code here
-	if (subStr === "") return 0;
+function indexOfIgnoreCase(str, subStr) {
+  if (subStr === "") return 0;
   if (str === "" || subStr.length > str.length) return -1;
 
   const main = str.toLowerCase();
